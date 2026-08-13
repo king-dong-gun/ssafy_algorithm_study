@@ -59,10 +59,25 @@ git push
 
 ## 2. 브랜치 확인
 
-![PR 브랜치 설정](./images/pr02.png)
+![PR 브랜치 설정](./images/pr07.png)
+> 반드시 자신의 브랜치에서 해야함
+> 브랜치명 왼쪽에 `*` 떠 있으면 현재 브랜치
+> 
 
-## 3. Create pull request 클릭
+## 3. 기능 담당자 설정
+![Assignees](./images/pr02.png)
+![Assignees](./images/pr03.png)
 
-![Create pull request](./images/pr03.png)
 
+> 라벨은 추후 수정함 일단은 feature 사용
+> 
+## 4. Create pull request 클릭
+
+![Create pull request](./images/pr04.png)
+
+## 5. Merge pull request 클릭
+![Merge pull request](./images/pr05.png)
+
+## 6. Merge가 됐는지 확인
+![Merged](./images/pr06.png)
 </details>
