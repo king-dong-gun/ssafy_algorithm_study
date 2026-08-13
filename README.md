@@ -83,3 +83,5 @@ git push
 ## 6. Merge가 됐는지 확인
 ![Merged](./images/pr06.png)
 </details>
+
+### 만약 잘 안되면 `김동건`한테 mm이나 카톡 주셈
