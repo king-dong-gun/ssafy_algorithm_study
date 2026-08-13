@@ -1,4 +1,4 @@
-# ssafy_algorithm_study
+# SSAFY 16기 코테/알고리즘 스터디
 
 2026.08 ~ ing
 
