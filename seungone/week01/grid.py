@@ -8,3 +8,14 @@ for i in range(n):
     result = max(result, v)
 print(result)
 
+
+"""
+3 3
+3 1 2
+4 1 4
+2 2 2
+
+2 4
+7 3 1 8
+3 3 3 4
+"""
