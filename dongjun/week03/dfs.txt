@@ -1,0 +1,59 @@
+"""
+dfs(0,0)
+│
+├─ dfs(-1,0) → False      # 범위 밖
+│
+├─ dfs(1,0)
+│  │
+│  ├─ dfs(0,0) → False    # 이미 1
+│  │
+│  ├─ dfs(2,0)
+│  │  │
+│  │  ├─ dfs(1,0) → False    # 이미 1
+│  │  │
+│  │  ├─ dfs(3,0) → False    # 1
+│  │  │
+│  │  ├─ dfs(2,-1) → False   # 범위 밖
+│  │  │
+│  │  └─ dfs(2,1)
+│  │     │
+│  │     ├─ dfs(1,1) → False # 1
+│  │     │
+│  │     ├─ dfs(3,1)
+│  │     │  │
+│  │     │  ├─ dfs(2,1) → False
+│  │     │  ├─ dfs(4,1) → False
+│  │     │  ├─ dfs(3,0) → False
+│  │     │  │
+│  │     │  └─ dfs(3,2)
+│  │     │     │
+│  │     │     ├─ dfs(2,2) → False
+│  │     │     ├─ dfs(4,2) → False
+│  │     │     ├─ dfs(3,1) → False
+│  │     │     │
+│  │     │     └─ dfs(3,3)
+│  │     │        │
+│  │     │        ├─ dfs(2,3) → False
+│  │     │        ├─ dfs(4,3) → False
+│  │     │        ├─ dfs(3,2) → False
+│  │     │        └─ dfs(3,4) → False
+│  │     │        │
+│  │     │        └─ return True
+│  │     │
+│  │     │     └─ return True
+│  │     │
+│  │     └─ dfs(2,0) ...
+│  │
+│  ├─ dfs(1,-1) → False
+│  │
+│  └─ dfs(1,1) → False
+│
+├─ dfs(0,-1) → False
+│
+└─ dfs(0,1)
+   │
+   └─ ...
+   
+return True
+
+"""
