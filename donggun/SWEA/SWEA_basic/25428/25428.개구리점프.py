@@ -22,3 +22,15 @@ for test_case in range(1, T+1):
 
     result = min(now_idx + K + 1, N)
     print(f"#{test_case} {result}")
+
+    ##========================
+    # N: 5
+    # K: 3
+    # now_idx: 3
+    # range(4, 7) -> 4, 5, 6
+    # N이 5라서 아웃 오브 레인지
+    # min(6, 4)+1
+    # 마지막 범위 range(4, 5) -> 4, 5
+    # N 5라서 아웃 오브 레인지 안남
+    ##========================
+    # 마지막 result에 min도 N을 넘으면 안되기 때문에
