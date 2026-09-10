@@ -9,7 +9,11 @@ for test_case in range(1, T+1):
     max_total = 0
 
     # 배열 생성
-    arr = [list(map(int, input().split()))for _ in range(N)]
+    arr = []
+    for i in range(N):
+        row = list(map(int, input().split()))
+        arr.append(row)
+
     for i in range(N):
         for j in range(N):
             # 파리채가 생성한 배열에서 범위를 넘어가는지 확인
