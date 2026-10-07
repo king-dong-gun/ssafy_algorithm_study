@@ -21,6 +21,7 @@ pipe = [
 ]
 
 
+
 def f(N, M, R, C, L):
     count = 0
 
