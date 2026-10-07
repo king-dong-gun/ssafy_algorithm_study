@@ -53,6 +53,52 @@ git push
 ```
 
 <details>
+<summary>📌 Issue 생성 방법 보기</summary>
+
+## 1. Issues 탭 클릭
+![issue01.png](./images/issue03.png)
+## 2. New issue 클릭
+![issue01.png](./images/issue02.png)
+## 3. Issue 작성
+> 이슈 제목, 이슈 설명 작성 이후 create
+
+![issue01.png](./images/issue01.png)
+
+## 4. Issue 생성 후 생성된 Issue 번호를 확인
+![issue01.png](./images/issue04.png)
+> 위의 이슈는 #30이므로 #30 기준으로 작성하겠음
+
+## 5. 알고리즘 구현 및 작업 후 `git add.`
+
+## 6. 이후 커밋메시지 작성 시 
+### `Resolves #이슈 번호/feat: 날짜_문제번호_문제제목`
+> 위의 이슈가 #30이므로 #30기준으로 리드미 작성하겠음
+> 
+> 1. `git add.`
+> 
+> 2. `git commit -m "Resolves #이슈 번호/feat: 날짜_문제번호_문제제목 외 n문제"`
+> 
+> 3. `git push origin 자신의 브랜치`
+
+![issue01.png](./images/issue05.png)
+
+## 7. 평소처럼 pr 생성화면이 나오면 머지하면 이슈는 알아서 닫힌다. 만약 자기 로컬에 메인에 없는 기록이 있으면 아래 사진처럼 뜨므로 여기서 pr를 생성하면 된다.
+
+![issue01.png](./images/issue06.png)
+
+## 8. 이후 pr을 생성 후 머지하면 이슈는 닫힌다.
+제목은 알아서 커밋메세지로 들어간다.
+
+![issue01.png](./images/issue07.png)
+
+![issue01.png](./images/issue08.png)
+
+## 9. 이후 이슈에 들어가보면 닫힌걸 확인이 가능하다.
+![issue01.png](./images/issue09.png)
+
+</details>
+
+<details>
 <summary>📌 PR 생성 방법 보기</summary>
 
 ## 1. Compare & pull request 클릭
